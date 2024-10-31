@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: #315FE9;
+  --indigo: #6610f2;
+  --purple: #7B69EF;
+  --pink: #ff2d55;
+  --red: #DF4658;
+  --orange: #ff9500;
+  --yellow: #F9D776;
+  --green: #42BA96;
+  --teal: #5ac8fa;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #869AB8;
+  --gray-dark: #384C74;
+  --primary: #315FE9;
+  --secondary: #869AB8;
+  --success: #42BA96;
+  --info: #7B69EF;
+  --warning: #F9D776;
+  --danger: #DF4658;
+  --light: #F9FBFD;
+  --dark: #111C32;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1540px;
+  --font-family-sans-serif: "CircularStd", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  position: sticky;
+  top: 0;
+}
+header .head_navbar {
+  display: flex;
+  align-items: center;
+}
+header .head_navbar .head_navbar_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  position: sticky;
+  top: 0;
+  padding: 10px 20px;
+}
+header .head_navbar .head_navbar_icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 10px;
+  cursor: pointer;
+}
+header .head_navbar .head_navbar_icons i {
+  font-size: 25px;
+  color: rgb(87, 87, 87);
+}
+header .head_navbar .head_navbar_icons i:hover {
+  color: #315FE9;
+}
+header .head_navbar .head_navbar_logo {
+  background-color: rgb(49, 95, 233);
+  width: 300px;
+  height: 100px;
+}
+header .head_navbar .head_navbar_logo span {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 30px 20px;
+  font-size: 25px;
+  color: #F9FBFD;
+  font-weight: 700;
+  font-family: var(--font-family-sans-serif);
+}
+header .head_navbar .head_navbar_logo span i {
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  background-color: rgba(27, 71, 222, 0.95);
+  border-radius: 50%;
+  color: #F9FBFD;
+}
+header .head_navbar .head_navbar_inputs_btn {
+  display: flex;
+  gap: 30px;
+}
+header .head_navbar .head_navbar_inputs_btn button {
+  width: 150px;
+  height: 40px;
+  border: 1px solid blue;
+  border-radius: 8px;
+  font-size: 17px;
+  font-family: var(--font-family-sans-serif);
+  color: var(--primary);
+  font-weight: 600;
+  cursor: pointer;
+}
+header .head_navbar .head_navbar_inputs_btn button:hover {
+  background-color: rgba(125, 156, 251, 0.6);
+  transition: all 0.3s linear;
+}
+header .head_navbar .head_navbar_inputs {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #e7e7e7;
+  width: 250px;
+  height: 40px;
+}
+header .head_navbar .head_navbar_inputs input {
+  background-color: #eaeaea;
+  border: none;
+  padding: 0 15px;
+  color: grey;
+  font-size: 14px;
+  height: 30px;
+}
+header .head_navbar .head_navbar_inputs i {
+  font-size: 30px;
+  color: rgb(105, 105, 105);
+  padding-left: 10px;
+}/*# sourceMappingURL=style.css.map */
