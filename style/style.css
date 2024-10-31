@@ -55,6 +55,7 @@ header .head_navbar .head_navbar_left {
   position: sticky;
   top: 0;
   padding: 10px 20px;
+  background-color: var(--light);
 }
 header .head_navbar .head_navbar_icons {
   display: flex;
@@ -139,6 +140,7 @@ header .head_navbar .head_navbar_inputs i {
 
 main {
   padding-top: 20px;
+  display: flex;
 }
 main .aside-1 {
   display: flex;
@@ -189,4 +191,44 @@ main aside span {
 }
 main aside span i {
   font-size: 20px;
+}
+main .revolutsiya_img {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 10px 20px;
+  width: 400px;
+  height: 230px;
+  background-size: cover;
+  background-image: url(/images/photo_3_2024-10-31_15-27-40.jpg);
+}
+main .revolutsiya_img h5 {
+  width: 410px;
+  font-size: 18px;
+  color: var(--light);
+  font-family: var(--font-family-sans-serif);
+}
+main .revolutsiya_img .revolutsiya_img_bottom {
+  display: flex;
+  justify-content: space-between;
+  color: var(--light);
+}
+main .revolutsiya_img .revolutsiya_img_bottom span {
+  font-family: var(--font-family-sans-serif);
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+main .revolutsiya_img .revolutsiya_img_bottom button {
+  width: 150px;
+  height: 30px;
+  background-color: #42BA96;
+  border: none;
+  border-radius: 20px 0px 20px 0px;
+  color: #fff;
+  font-weight: bold;
+  font-family: var(--font-family-sans-serif);
 }/*# sourceMappingURL=style.css.map */

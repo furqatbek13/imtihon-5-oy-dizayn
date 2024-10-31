@@ -51,6 +51,7 @@ header{
             position: sticky;
             top: 0;
             padding: 10px 20px;
+            background-color: var(--light);
 
         }
         .head_navbar_icons{
@@ -140,6 +141,7 @@ header{
 
 main{
     padding-top: 20px;
+    display: flex;
     .aside-1{
         display: flex;
         justify-content: space-between;
@@ -189,6 +191,47 @@ main{
             font-family: var(--font-family-sans-serif);
             i{
                 font-size: 20px;
+            }
+        }
+    }
+    .revolutsiya_img{
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 10px 20px;
+        width: 400px;
+        height: 230px;
+        background-size: cover;
+        background-image: url(/images/photo_3_2024-10-31_15-27-40.jpg);
+        h5{
+            width: 410px;
+            font-size: 18px;
+            color: var(--light);
+            font-family: var(--font-family-sans-serif);
+        }
+        .revolutsiya_img_bottom{
+            display: flex;
+            justify-content: space-between;
+            color: var(--light);
+            
+            span{
+                font-family: var(--font-family-sans-serif);
+                font-size: 18px;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+            button{
+                width: 150px;
+                height: 30px;
+                background-color: #42BA96;
+                border: none;
+                border-radius: 20px 0px 20px 0px;
+                color: #fff;
+                font-weight: bold;
+                font-family: var(--font-family-sans-serif);
             }
         }
     }
