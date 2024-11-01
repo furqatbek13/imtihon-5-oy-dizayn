@@ -1,9 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-:root{
+
+:root {
     --blue: #315FE9;
     --indigo: #6610f2;
     --purple: #7B69EF;
@@ -34,15 +35,18 @@
     --font-family-sans-serif: "CircularStd", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-header{
+
+header {
     width: 100%;
     height: 90px;
     position: sticky;
     top: 0;
-    .head_navbar{
+
+    .head_navbar {
         display: flex;
         align-items: center;
-        .head_navbar_left{
+
+        .head_navbar_left {
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -54,25 +58,30 @@ header{
             background-color: var(--light);
 
         }
-        .head_navbar_icons{
+
+        .head_navbar_icons {
             display: flex;
             align-items: center;
             gap: 10px;
-            padding: 20px 10px;
+            padding: 0px 10px;
             cursor: pointer;
-            i{
+
+            i {
                 font-size: 25px;
                 color: rgb(87, 87, 87);
             }
-            i:hover{
+
+            i:hover {
                 color: #315FE9;
             }
         }
-        .head_navbar_logo{
-            background-color: rgb(49,95,233);
+
+        .head_navbar_logo {
+            background-color: rgb(49, 95, 233);
             width: 300px;
             height: 100px;
-            span{
+
+            span {
                 display: flex;
                 gap: 5px;
                 align-items: center;
@@ -81,23 +90,26 @@ header{
                 color: #F9FBFD;
                 font-weight: 700;
                 font-family: var(--font-family-sans-serif);
-                i{
+
+                i {
                     width: 50px;
                     height: 50px;
                     align-items: center;
                     display: flex;
                     justify-content: center;
                     font-size: 30px;
-                    background-color: rgba(27,71,222,0.95);
+                    background-color: rgba(27, 71, 222, 0.95);
                     border-radius: 50%;
                     color: #F9FBFD;
                 }
             }
         }
-        .head_navbar_inputs_btn{
+
+        .head_navbar_inputs_btn {
             display: flex;
             gap: 30px;
-            button{
+
+            button {
                 width: 150px;
                 height: 40px;
                 border: 1px solid blue;
@@ -108,12 +120,14 @@ header{
                 font-weight: 600;
                 cursor: pointer;
             }
-            button:hover{
+
+            button:hover {
                 background-color: #7d9cfb99;
                 transition: all 0.3s linear;
             }
         }
-        .head_navbar_inputs{
+
+        .head_navbar_inputs {
             display: flex;
             align-items: center;
             // border: 2px solid  #315FE9;
@@ -121,7 +135,8 @@ header{
             background-color: #e7e7e7;
             width: 250px;
             height: 40px;
-            input{
+
+            input {
                 background-color: #eaeaea;
                 border: none;
                 padding: 0 15px;
@@ -130,7 +145,8 @@ header{
                 height: 30px;
 
             }
-            i{
+
+            i {
                 font-size: 30px;
                 color: rgb(105, 105, 105);
                 padding-left: 10px;
@@ -139,31 +155,38 @@ header{
     }
 }
 
-main{
+main {
     padding-top: 20px;
     display: flex;
-    .aside-1{
+    width: 100%;
+    height: 100%;
+
+    .aside-1 {
         display: flex;
         justify-content: space-between;
         padding-bottom: 10px;
-       
+
     }
-    aside{
+
+    aside {
         width: 250px;
         height: 100%;
         padding-left: 10px;
-        overflow-x: hidden; 
+        overflow-x: hidden;
         overflow-y: scroll;
-        .aside_menu1:hover{
+
+        .aside_menu1:hover {
             background-color: rgb(216, 216, 216);
             transition: all 0.3s linear;
         }
-        .aside_menu1{
+
+        .aside_menu1 {
             width: 110px;
             height: 90px;
             cursor: pointer;
             border-radius: 10px;
-            i{
+
+            i {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -173,7 +196,8 @@ main{
                 padding-bottom: 5px;
 
             }
-            p{
+
+            p {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -182,19 +206,32 @@ main{
                 color: var(--primary);
             }
         }
-        span{
+
+        span {
             color: var(--primary);
             display: flex;
             align-items: center;
             gap: 5px;
             font-size: 15px;
             font-family: var(--font-family-sans-serif);
-            i{
+
+            i {
                 font-size: 20px;
             }
         }
     }
-    .revolutsiya_img{
+
+    .revolutsiya_img_flex {
+        display: flex;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .revolutsiya_img:hover {
+        filter: brightness(50%);
+    }
+
+    .revolutsiya_img {
         cursor: pointer;
         display: flex;
         flex-direction: column;
@@ -204,18 +241,25 @@ main{
         height: 230px;
         background-size: cover;
         background-image: url(/images/photo_3_2024-10-31_15-27-40.jpg);
-        h5{
+
+        h5 {
             width: 410px;
             font-size: 18px;
             color: var(--light);
             font-family: var(--font-family-sans-serif);
         }
-        .revolutsiya_img_bottom{
+
+        .revolutsiya_img_bottom {
             display: flex;
             justify-content: space-between;
             color: var(--light);
-            
-            span{
+
+            i {
+                color: var(--light);
+                font-size: 20px;
+            }
+
+            span {
                 font-family: var(--font-family-sans-serif);
                 font-size: 18px;
                 font-weight: 500;
@@ -223,7 +267,8 @@ main{
                 align-items: center;
                 gap: 5px;
             }
-            button{
+
+            button {
                 width: 150px;
                 height: 30px;
                 background-color: #42BA96;
@@ -231,6 +276,152 @@ main{
                 border-radius: 20px 0px 20px 0px;
                 color: #fff;
                 font-weight: bold;
+                font-family: var(--font-family-sans-serif);
+            }
+
+            .second_btn {
+                width: 150px;
+                height: 30px;
+                color: var(--gray-dark);
+                background-color: var(--warning);
+            }
+
+            .three_btn {
+                width: 150px;
+                height: 30px;
+                color: var(--gray-dark);
+                background-color: var(--light);
+            }
+        }
+    }
+
+    .busines_imgs_flex {
+        display: flex;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .busines_imgs:hover {
+        filter: brightness(50%);
+    }
+
+    .busines_imgs {
+        width: 800px;
+        height: 200px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(/images/photo_7_2024-10-31_15-27-40.jpg);
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 10px 20px;
+
+        h5 {
+            font-size: 18px;
+            color: var(--light);
+            font-family: var(--font-family-sans-serif);
+        }
+
+        .busines_imgs_bottom {
+            display: flex;
+            justify-content: space-between;
+            color: var(--light);
+
+            span {
+                font-family: var(--font-family-sans-serif);
+                font-size: 18px;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+
+        button {
+            width: 100px;
+            height: 30px;
+            border-radius: 20px 0px 20px 0px;
+            border: none;
+            background-color: var(--danger);
+            color: var(--light);
+            font-family: var(--font-family-sans-serif);
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+
+    .busines_imgs_right:hover {
+        filter: brightness(50%);
+    }
+
+    .busines_imgs_right {
+        width: 420px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url(/images/photo_7_2024-10-31_15-27-40.jpg);
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 10px 20px;
+
+        h5 {
+            font-size: 18px;
+            color: var(--light);
+            font-family: var(--font-family-sans-serif);
+            width: 380px;
+        }
+
+        .busines_imgs_right_bottom {
+            display: flex;
+            justify-content: space-between;
+            color: var(--light);
+
+            span {
+                font-family: var(--font-family-sans-serif);
+                font-size: 18px;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+
+            button {
+                width: 100px;
+                height: 30px;
+                border-radius: 20px 0px 20px 0px;
+                border: none;
+                background-color: var(--purple);
+                color: var(--light);
+                font-family: var(--font-family-sans-serif);
+                font-size: 15px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .development_ims_flex {
+        display: flex;
+        gap: 20px;
+        padding-bottom: 20px;
+
+        .development_ims {
+            
+            width: 650px;
+            height: 200px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-image: url(/images/photo_15_2024-10-31_15-27-40.jpg);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 10px 10px 20px;
+            h5{
+                font-size: 18px;
+                color: rgb(255, 255, 255);
                 font-family: var(--font-family-sans-serif);
             }
         }
